@@ -61,6 +61,10 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[4.8.4, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.18, )"
             }
           },
           "imports": [
