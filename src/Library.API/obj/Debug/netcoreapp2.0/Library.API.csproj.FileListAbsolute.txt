@@ -10,3 +10,15 @@ C:\www\RESTfulAPIAspNetCore_Course\csproj_msbuild_core2\start\Library\src\Librar
 C:\www\RESTfulAPIAspNetCore_Course\csproj_msbuild_core2\start\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.dll
 C:\www\RESTfulAPIAspNetCore_Course\csproj_msbuild_core2\start\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.pdb
 C:\www\RESTfulAPIAspNetCore_Course\csproj_msbuild_core2\start\Library\src\Library.API\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.deps.json
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.json
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.dev.json
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.dll
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.pdb
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csprojAssemblyReference.cache
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfo.cs
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.dll
+C:\Users\user\Documents\Web\aspnet_core_restfulapi_course\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.pdb

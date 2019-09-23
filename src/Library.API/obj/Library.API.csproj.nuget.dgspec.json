@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\RESTfulAPIAspNetCore_Course\\csproj_msbuild_core2\\start\\Library\\src\\Library.API\\Library.API.csproj": {}
+    "C:\\Users\\user\\Documents\\Web\\aspnet_core_restfulapi_course\\src\\Library.API\\Library.API.csproj": {}
   },
   "projects": {
-    "C:\\www\\RESTfulAPIAspNetCore_Course\\csproj_msbuild_core2\\start\\Library\\src\\Library.API\\Library.API.csproj": {
+    "C:\\Users\\user\\Documents\\Web\\aspnet_core_restfulapi_course\\src\\Library.API\\Library.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\RESTfulAPIAspNetCore_Course\\csproj_msbuild_core2\\start\\Library\\src\\Library.API\\Library.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Web\\aspnet_core_restfulapi_course\\src\\Library.API\\Library.API.csproj",
         "projectName": "Library.API",
-        "projectPath": "C:\\www\\RESTfulAPIAspNetCore_Course\\csproj_msbuild_core2\\start\\Library\\src\\Library.API\\Library.API.csproj",
-        "packagesPath": "C:\\Users\\wcosta\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\RESTfulAPIAspNetCore_Course\\csproj_msbuild_core2\\start\\Library\\src\\Library.API\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\Web\\aspnet_core_restfulapi_course\\src\\Library.API\\Library.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Web\\aspnet_core_restfulapi_course\\src\\Library.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wcosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
