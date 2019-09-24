@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AspNetCoreRateLimit/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "1.0.1",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/AspNetCoreRateLimit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/AspNetCoreRateLimit.dll": {}
+        }
+      },
       "AutoMapper/8.1.0": {
         "type": "package",
         "dependencies": {
@@ -53,6 +66,23 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "Marvin.Cache.Headers/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "1.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.2",
+          "Microsoft.Extensions.Options": "1.0.2",
+          "Microsoft.Net.Http.Headers": "1.0.2",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Marvin.Cache.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Marvin.Cache.Headers.dll": {}
         }
       },
       "Microsoft.ApplicationInsights/2.4.0": {
@@ -4829,6 +4859,19 @@
     }
   },
   "libraries": {
+    "AspNetCoreRateLimit/1.0.5": {
+      "sha512": "4KzD/lLwCChebt2ZmWtgU2pTDeE1WcAFXC/+GgGtHniontZw+4dhUhu5+dYIn9Fpn4rzOqAKx8PYk2X4L35npg==",
+      "type": "package",
+      "path": "aspnetcoreratelimit/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcoreratelimit.1.0.5.nupkg.sha512",
+        "aspnetcoreratelimit.nuspec",
+        "lib/net46/AspNetCoreRateLimit.dll",
+        "lib/netstandard1.6/AspNetCoreRateLimit.dll"
+      ]
+    },
     "AutoMapper/8.1.0": {
       "sha512": "Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
       "type": "package",
@@ -4864,6 +4907,18 @@
         "runtimes/win-arm/native/libuv.dll",
         "runtimes/win-x64/native/libuv.dll",
         "runtimes/win-x86/native/libuv.dll"
+      ]
+    },
+    "Marvin.Cache.Headers/1.1.0": {
+      "sha512": "xUVGPP9vmFCN3ZrZ327+uY9M2NEGiuQEHKvb6N0bgPwTl/ODMymhleIsK+bIeRmMn37VKy/vXctTNVks/Jg0bw==",
+      "type": "package",
+      "path": "marvin.cache.headers/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.6/Marvin.Cache.Headers.dll",
+        "marvin.cache.headers.1.1.0.nupkg.sha512",
+        "marvin.cache.headers.nuspec"
       ]
     },
     "Microsoft.ApplicationInsights/2.4.0": {
@@ -13254,7 +13309,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AspNetCoreRateLimit >= 1.0.5",
       "AutoMapper >= 8.1.0",
+      "Marvin.Cache.Headers >= 1.1.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.Extensions.Logging.Debug >= 2.2.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13303,9 +13360,17 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "AspNetCoreRateLimit": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          },
           "AutoMapper": {
             "target": "Package",
             "version": "[8.1.0, )"
+          },
+          "Marvin.Cache.Headers": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
